@@ -22,7 +22,7 @@ Once this is done, launch twitterflooder and you're done!
 
 ## Help
 If this crash at the beginning, make sure you have installed all the files and library required. If this crash just after putting your credentials, check if your
-password/email/username is still good. If you still have problem even after that, tell me your issue [here](https://github.com/ReallyFighter/Putin-IP-Lookup/issues)
+password/email/username is still good. If you still have problem even after that, tell me your issue [here](https://github.com/ReallyFighter/TwitterFlooder/issues)
 
 ## Note
 This is not 100% accuracy, this won't work everytime and may crash a lot of time, all depends of your pc and your connection. For people who thinks this program is not safe, it's totally safe, I made it myself , and this is opensource ,check the sourcecode if are triggered by this. 
