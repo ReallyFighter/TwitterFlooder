@@ -12,7 +12,7 @@ git clone this repo by using [this](https://git-scm.com/downloads).
 git clone https://github.com/ReallyFighter/TwitterFlooder
 ```
 Or by Clicking [here](https://github.com/ReallyFighter/TwitterFlooder/archive/refs/heads/main.zip)
-After this, launch requirements.bat to make sure to have all the necessary library.To launch it, open cmd at the location where you installed the tool, and do
+After this, launch requirements.bat to make sure to have all the necessary library. To launch it, open cmd at the location where you installed the tool, and do
 ```bash
 python TwitterFlooder.py
 ```
