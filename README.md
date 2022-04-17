@@ -2,7 +2,8 @@
 TwitterFlooder is a tool to spam/flood a tweet without any api key, just a basic twitter account.
 
 ## Basic Installation (recommended)
-Go to [Release](https://github.com/ReallyFighter/TwitterFlooder/archive/refs/heads/main.zip) and install the files
+Go to [Release](https://github.com/ReallyFighter/TwitterFlooder/archive/refs/heads/main.zip) and install the files.
+
 Note:By installing from the Releases, you dont need to download the requirements.
 
 ## Installation From source code
