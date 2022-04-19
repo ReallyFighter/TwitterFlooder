@@ -67,9 +67,12 @@ driver.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div/div/div/div/d
 driver.find_element_by_xpath("/html/body/div[1]/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div[5]/label/div/div[2]/div/input").send_keys(email)
 driver.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div[6]/div').click()
 time.sleep(1)
-driver.find_element_by_xpath("/html/body/div[1]/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div[2]/label/div/div[2]/div/input").click()
-driver.find_element_by_xpath("/html/body/div[1]/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div[2]/label/div/div[2]/div/input").send_keys(username)
-driver.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div/div/div/div').click()
+try:
+  driver.find_element_by_xpath("/html/body/div[1]/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div[2]/label/div/div[2]/div/input").click()
+  driver.find_element_by_xpath("/html/body/div[1]/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div[2]/label/div/div[2]/div/input").send_keys(username)
+  driver.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div/div/div/div').click()
+except:
+  pass
 time.sleep(1)
 driver.find_element_by_xpath('/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div[3]/div/label/div/div[2]/div[1]/input').send_keys(password)
 driver.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div/div[1]/div/div/div').click()
@@ -106,7 +109,7 @@ while count < int(nombre) :
     count = count + 1
 sys.stdout = sys.__stdout__
 sys.stderr = sys.__stderr__
-os.sytem('cls')
+os.system('cls')
 typingPrint('''Finished!
 ''')
 typingPrint('Sent all tweets, dont forget to check github.com/ReallyFighter to more tool like that!')
